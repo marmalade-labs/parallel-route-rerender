@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-type PDPLayoutProps = {
+type LetterLayoutProps = {
   params: { letter: string };
   children: ReactNode;
   grid: ReactNode;
@@ -25,7 +25,7 @@ type PDPLayoutProps = {
   grid20: ReactNode;
 };
 
-export default function LetterLayout(props: PDPLayoutProps) {
+export default function LetterLayout(props: LetterLayoutProps) {
   return (
     <div className="bg-gray-100">
       {props.children}
