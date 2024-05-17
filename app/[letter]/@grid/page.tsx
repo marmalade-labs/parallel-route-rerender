@@ -18,7 +18,6 @@ export default async function PDPGridPage({
       {getShuffledAlphabet().map((letter) => (
         <li key={letter} className="text-center overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
           <Link href={`/${letter}`}>
-            {/* Your content */}
             <div>{letter}</div>
           </Link>
         </li>
